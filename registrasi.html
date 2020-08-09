@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> form </title>
+		<style type="text/css">
+			.container {
+				margin-left: 500px;
+				margin-top: 80px;
+			}
+											
+				body{
+					background: url(login.jpg);
+
+				}
+
+				.kepala{
+					width: 450px;
+					height: 50px;
+					border-radius:3px 3px 0 0;
+				}
+
+				.kepalatext{
+	                color: black;
+	                text-align: center;
+	                font-size: 18pt;
+	                font-family: Century;
+	                padding-top: 50px;
+
+	    		}
+	    		.username{
+	    			font-family: century;
+	    			font-size: 12pt;
+	    			width: 415px;
+	    			height: 30px;
+	    			border: 1px solid #2980b9;
+	    			margin-left: 15px;
+	    			margin-top: 50px;
+	    			padding-left: 5px;
+	    			display: compact;
+	    			box-shadow: #95a5a6;
+	    			border-radius: 5px; 
+	    		}
+
+	            .e-mail{
+	    			text-transform:uppercase;
+	                font-family: Century;
+	                font-size: 12pt;
+	                width: 415px;
+	                height: 30px;
+	                border: 1px solid #2980b9;
+	                margin-left: 15px;
+	                margin-top: 25px;
+	                padding-left: 5px;
+	                display: compact;
+	                box-shadow: #95a5a6;
+	                border-radius: 5px;
+
+	    		}
+	    		.pasword{
+	    			font-family: century;
+	    			font-size: 12pt;
+	    			width: 415px;
+	    			height: 30px;
+	    			border: 1px solid #2980b9;
+	    			margin-left: 15px;
+	    			margin-top: 25px;
+	    			padding-left: 5px;
+	    			display: compact;
+	    			box-shadow: #95a5a6;
+	    			border-radius: 5px;
+	    			top: -15px;
+	    		}
+	    		.submit{
+	    			margin-top: 30px;
+	    			margin-right: 400px;
+	    		}
+		</style>
+	</head>
+    <body>
+        <div class="container">
+            <div class="badan">
+                <div class="kepala">
+                    <p class="kepalatext">Registrasi</p>
+                </div>
+                    <input class="username" type="text" name="username" id="name" placeholder="Username" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                    <input class="e-mail" type="text" name="e-mail" id="name" placeholder="E-mail" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                    <input class="pasword" type="text" name="pasword" id="name" placeholder="Pasword" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                    <input class="pasword" type="text" name="pasword" id="name" placeholder="Ulangi Pasword" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                    <center>
+                    	<button class="submit" type="submit" name="submit"> LOGIN </button>
+                    </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html> 

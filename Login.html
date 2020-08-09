@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width-device-wudth, initial-scale=1">
+	<title>The Advanture </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+			<style type="text/css">
+				* {
+					text-decoration: none;
+					list-style: none;
+				}
+			.logins {
+				margin-left: 500px;
+				margin-top: 80px;
+			}
+											
+				body{
+					background-color: black;
+					background: url(login.jpg);
+
+				}
+
+				.kepala{
+					width: 450px;
+					height: 50px;
+					border-radius:3px 3px 0 0;
+				}
+
+				.kepalatext{
+	                color: black;
+	                text-align: center;
+	                font-size: 18pt;
+	                font-family: Century;
+	                padding-top: 50px;
+	            }
+
+
+	            .namadepan{
+	    			text-transform:uppercase;
+	                font-family: Century;
+	                font-size: 13pt;
+	                width: 415px;
+	                height: 30px;
+	                border: 1px solid #2980b9;
+	                padding-left: 5px;
+	                margin-top: 75px;
+	                margin-left: 15px;
+	                display: compact;
+	                box-shadow: #95a5a6;
+	                border-radius: 5px;
+	            }
+
+	            .e-mail{
+	    			text-transform:uppercase;
+	                font-family: Century;
+	                font-size: 13pt;
+	                width: 415px;
+	                height: 30px;
+	                border: 1px solid #2980b9;
+	                margin-left: 15px;
+	                margin-top: 40px;
+	                padding-left: 5px;
+	                display: compact;
+	                box-shadow: #95a5a6;
+	                border-radius: 5px;
+	            }
+
+	    		.submit{
+	    			margin-top: 40px;
+	    			margin-right: 300px;
+	    			margin-left: 10px;
+	    			border:1px solid;
+	    			text-decoration: none;
+	    			display: inline-block;
+	    			margin-bottom: 100px;
+	    		}
+	    		.login{
+
+	    		}
+
+		</style>
+</head>
+<body>
+	
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href=""><img src="fb.png" style="width: 1.5vw; border-radius: 3px;"></a></li>
+				<li><a href=""><img src="yt.jpeg" style="width: 2vw; border-radius: 6px;"></a></li>
+				<li><a href=""><img src="twiter.png" style="width: 1.8vw; border-radius: 6px;"></a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<header>
+		<div class="container">
+		<h1><a href="">the advanture</a></h1>
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li class="active"><a href="login.html">LOGIN</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</div>
+		</ul>
+	</header>
+
+	<section class="label">
+		<div class="container">
+			<p>HOME/LOGIN</p>
+		</div>
+	</section>
+	
+	 <div class="logins">
+            <div class="badan">
+                <div class="kepala">
+                    <p class="kepalatext">LOGIN</p>
+                </div>
+                    <div>
+                       <input class="namadepan" type="text" name="namadepan" id="name" placeholder="Username" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                       <input class="e-mail" type="text" name="e-mail" id="name" placeholder="pasword" onKeyPress="return goodchars(event,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',this)"/>
+                    </div>
+                   	<div class="reg">
+                    	<li class="submit"><a href="registrasi.html">Registrasi</a></li>
+                    	<li class="submit"><a href="">Login</a></li>
+                    </div>
+            </div>
+     </div>
+  
+		<footer>
+			<div class="container">
+				<small>Copyright &copy; 2020 - Yudha. All Rights Reserved.</small>
+			</div>
+		</footer>
+	</section>
+
+</body>
+</html>
